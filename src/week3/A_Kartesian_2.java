@@ -34,14 +34,14 @@ public class A_Kartesian_2 {
                 position = "atas";
             }
         }
-        if (yBase > y) {
+        if (yBase > y && xBase != x) {
             if (xBase > x) {
                 position = "kiri bawah";
             } else {
                 position = "kanan bawah";
             }
         }
-        if (yBase < y) {
+        if (yBase < y && xBase != x) {
             if (xBase > x) {
                 position = "kiri atas";
             } else {
